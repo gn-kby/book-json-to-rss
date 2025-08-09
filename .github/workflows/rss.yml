@@ -1,8 +1,8 @@
-name: Build RSS 3x/day
+name: Build RSS 5x/day
 
 on:
   schedule:
-    # UTC 20:00 / 00:00 / 03:00 / 06:00 / 09:00
+    # UTC 20:00 / 00:00 / 03:00 / 06:00 / 09:00 （JST 05:00 / 09:00 / 12:00 / 15:00 / 18:00）
     - cron: "0 20,0,3,6,9 * * *"
   workflow_dispatch:
 
