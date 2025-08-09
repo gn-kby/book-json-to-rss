@@ -46,8 +46,16 @@ const SOURCES = [
 
 // ===== ユーティリティ =====
 const cdata = (s = "") => `<![CDATA[${String(s).replaceAll("]]>", "]]]]><![CDATA[>")}]]>`;
+const escAttr = (s = "") =>
+  String(s)
+    .replaceAll("&","&amp;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;");
+
 const pick = (obj, keys, def = "") =>
   keys.map(k => obj?.[k]).find(v => typeof v === "string" && v.trim()) ?? def;
+
 const toRfc822 = (v) => {
   const d = new Date(v);
   return isNaN(d) ? new Date().toUTCString() : d.toUTCString();
@@ -91,18 +99,18 @@ const rssXml = (channelTitle, channelLink, items) => {
   const rssItems = items.map(it => `
     <item>
       <title>${cdata(it.title)}</title>
-      <link>${it.link}</link>
+      <link>${cdata(it.link)}</link>
       <guid isPermaLink="${/^https?:\/\//.test(it.guid) ? "true" : "false"}">${cdata(it.guid)}</guid>
       <pubDate>${toRfc822(it.date)}</pubDate>
       <description>${cdata(it.desc)}</description>
-      ${it.img ? `<enclosure url="${it.img}" length="0" type="image/jpeg" />` : ""}
+      ${it.img ? `<enclosure url="${escAttr(it.img)}" length="0" type="image/jpeg" />` : ""}
     </item>`).join("");
 
   return `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
   <title>${cdata(channelTitle)}</title>
-  <link>${channelLink}</link>
+  <link>${cdata(channelLink)}</link>
   <description>${cdata("zetacx APIの検索結果をRSS化")}</description>
   <language>ja</language>
   <lastBuildDate>${now}</lastBuildDate>
