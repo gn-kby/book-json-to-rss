@@ -1,0 +1,9 @@
+{
+  "name": "junkudo-json-to-rss",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node generate.js"
+  }
+}
