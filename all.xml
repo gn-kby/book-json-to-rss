@@ -5,806 +5,806 @@
   <link><![CDATA[https://gn-kby.github.io/book-json-to-rss/]]></link>
   <description><![CDATA[zetacx APIの検索結果をRSS化]]></description>
   <language>ja</language>
-  <lastBuildDate>Sat, 09 Aug 2025 23:41:29 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 09 Aug 2025 23:49:24 GMT</lastBuildDate>
   <ttl>240</ttl>
   
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784122076389]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784122076389]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784408558530]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784408558530]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784758446334]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784758446334]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784122076129]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784122076129]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784041163337]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784041163337]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784049167245]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784049167245]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784049162059]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784049162059]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784575672572]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784575672572]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784801946712]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784801946712]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784801946705]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784801946705]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784801946675]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784801946675]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784801946668]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784801946668]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784302103614]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784302103614]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784302103577]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784302103577]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784302103515]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784302103515]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784302103478]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784302103478]]></description>
-      
-    </item>
-    <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784302103492]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784302103492]]></link>
       <guid isPermaLink="false"><![CDATA[9784302103492]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784302103492]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784302103591]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784302103591]]></link>
       <guid isPermaLink="false"><![CDATA[9784302103591]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784302103591]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784302103638]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784302103638]]></link>
       <guid isPermaLink="false"><![CDATA[9784302103638]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784302103638]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784302103553]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784302103553]]></link>
       <guid isPermaLink="false"><![CDATA[9784302103553]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784302103553]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784297150785]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784297150785]]></description>
+      <title><![CDATA[9784122076389]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784122076389]]></link>
+      <guid isPermaLink="false"><![CDATA[9784122076389]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784122076389]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784839988593]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784839988593]]></description>
+      <title><![CDATA[9784408558530]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784408558530]]></link>
+      <guid isPermaLink="false"><![CDATA[9784408558530]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784408558530]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784863544857]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784863544857]]></description>
+      <title><![CDATA[9784758446334]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784758446334]]></link>
+      <guid isPermaLink="false"><![CDATA[9784758446334]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784758446334]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784297150310]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784297150310]]></description>
+      <title><![CDATA[9784122076129]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784122076129]]></link>
+      <guid isPermaLink="false"><![CDATA[9784122076129]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784122076129]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784297150396]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784297150396]]></description>
+      <title><![CDATA[9784041163337]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784041163337]]></link>
+      <guid isPermaLink="false"><![CDATA[9784041163337]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784041163337]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784863544901]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784863544901]]></description>
+      <title><![CDATA[9784049167245]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784049167245]]></link>
+      <guid isPermaLink="false"><![CDATA[9784049167245]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784049167245]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784863544918]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784863544918]]></description>
+      <title><![CDATA[9784049162059]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784049162059]]></link>
+      <guid isPermaLink="false"><![CDATA[9784049162059]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784049162059]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784320125896]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784320125896]]></description>
+      <title><![CDATA[9784575672572]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784575672572]]></link>
+      <guid isPermaLink="false"><![CDATA[9784575672572]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784575672572]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784296071296]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784296071296]]></description>
+      <title><![CDATA[9784801946712]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784801946712]]></link>
+      <guid isPermaLink="false"><![CDATA[9784801946712]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784801946712]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784405120457]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784405120457]]></description>
+      <title><![CDATA[9784801946705]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784801946705]]></link>
+      <guid isPermaLink="false"><![CDATA[9784801946705]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784801946705]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
-      <guid isPermaLink="false"><![CDATA[9784295021926]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
-      <description><![CDATA[ISBN: 9784295021926]]></description>
+      <title><![CDATA[9784801946675]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784801946675]]></link>
+      <guid isPermaLink="false"><![CDATA[9784801946675]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784801946675]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784801946668]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784801946668]]></link>
+      <guid isPermaLink="false"><![CDATA[9784801946668]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784801946668]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784302103614]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784302103614]]></link>
+      <guid isPermaLink="false"><![CDATA[9784302103614]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784302103614]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784302103577]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784302103577]]></link>
+      <guid isPermaLink="false"><![CDATA[9784302103577]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784302103577]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784302103515]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784302103515]]></link>
+      <guid isPermaLink="false"><![CDATA[9784302103515]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784302103515]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784302103478]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784302103478]]></link>
+      <guid isPermaLink="false"><![CDATA[9784302103478]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784302103478]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784297150235]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784297150235]]></link>
       <guid isPermaLink="false"><![CDATA[9784297150235]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784297150235]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784297150648]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784297150648]]></link>
       <guid isPermaLink="false"><![CDATA[9784297150648]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784297150648]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784798188003]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784798188003]]></link>
       <guid isPermaLink="false"><![CDATA[9784798188003]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784798188003]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784297150761]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784297150761]]></link>
       <guid isPermaLink="false"><![CDATA[9784297150761]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784297150761]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784798190815]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784798190815]]></link>
       <guid isPermaLink="false"><![CDATA[9784798190815]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784798190815]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784297151072]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784297151072]]></link>
       <guid isPermaLink="false"><![CDATA[9784297151072]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784297151072]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784817022592]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784817022592]]></link>
       <guid isPermaLink="false"><![CDATA[9784817022592]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784817022592]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784875867357]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784875867357]]></link>
       <guid isPermaLink="false"><![CDATA[9784875867357]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784875867357]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784297150624]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784297150624]]></link>
       <guid isPermaLink="false"><![CDATA[9784297150624]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:29 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784297150624]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784297150785]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784297150785]]></link>
+      <guid isPermaLink="false"><![CDATA[9784297150785]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784297150785]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784839988593]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784839988593]]></link>
+      <guid isPermaLink="false"><![CDATA[9784839988593]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784839988593]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784863544857]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784863544857]]></link>
+      <guid isPermaLink="false"><![CDATA[9784863544857]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784863544857]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784297150310]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784297150310]]></link>
+      <guid isPermaLink="false"><![CDATA[9784297150310]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784297150310]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784297150396]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784297150396]]></link>
+      <guid isPermaLink="false"><![CDATA[9784297150396]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784297150396]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784863544901]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784863544901]]></link>
+      <guid isPermaLink="false"><![CDATA[9784863544901]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784863544901]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784863544918]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784863544918]]></link>
+      <guid isPermaLink="false"><![CDATA[9784863544918]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784863544918]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784320125896]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784320125896]]></link>
+      <guid isPermaLink="false"><![CDATA[9784320125896]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784320125896]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784296071296]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784296071296]]></link>
+      <guid isPermaLink="false"><![CDATA[9784296071296]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784296071296]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784405120457]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784405120457]]></link>
+      <guid isPermaLink="false"><![CDATA[9784405120457]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784405120457]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784295021926]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784295021926]]></link>
+      <guid isPermaLink="false"><![CDATA[9784295021926]]></guid>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
+      <description><![CDATA[ISBN: 9784295021926]]></description>
+      
+    </item>
+    <item>
+      <title><![CDATA[9784818826601]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784818826601]]></link>
       <guid isPermaLink="false"><![CDATA[9784818826601]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784818826601]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784867931073]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784867931073]]></link>
       <guid isPermaLink="false"><![CDATA[9784867931073]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784867931073]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784130301954]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784130301954]]></link>
       <guid isPermaLink="false"><![CDATA[9784130301954]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784130301954]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784867930953]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784867930953]]></link>
       <guid isPermaLink="false"><![CDATA[9784867930953]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784867930953]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784130301961]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784130301961]]></link>
       <guid isPermaLink="false"><![CDATA[9784130301961]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784130301961]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784766430455]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784766430455]]></link>
       <guid isPermaLink="false"><![CDATA[9784766430455]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784766430455]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784422301044]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784422301044]]></link>
       <guid isPermaLink="false"><![CDATA[9784422301044]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784422301044]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784130333092]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784130333092]]></link>
       <guid isPermaLink="false"><![CDATA[9784130333092]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784130333092]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784771039742]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784771039742]]></link>
       <guid isPermaLink="false"><![CDATA[9784771039742]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784771039742]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784908672842]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784908672842]]></link>
       <guid isPermaLink="false"><![CDATA[9784908672842]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784908672842]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784120059421]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784120059421]]></link>
       <guid isPermaLink="false"><![CDATA[9784120059421]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784120059421]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784120059414]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784120059414]]></link>
       <guid isPermaLink="false"><![CDATA[9784120059414]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784120059414]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784022520760]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784022520760]]></link>
       <guid isPermaLink="false"><![CDATA[9784022520760]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784022520760]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784406069014]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784406069014]]></link>
       <guid isPermaLink="false"><![CDATA[9784406069014]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784406069014]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784867930892]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784867930892]]></link>
       <guid isPermaLink="false"><![CDATA[9784867930892]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784867930892]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784881254066]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784881254066]]></link>
       <guid isPermaLink="false"><![CDATA[9784881254066]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784881254066]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784130302210]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784130302210]]></link>
       <guid isPermaLink="false"><![CDATA[9784130302210]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784130302210]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784324115343]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784324115343]]></link>
       <guid isPermaLink="false"><![CDATA[9784324115343]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784324115343]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784409241721]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784409241721]]></link>
       <guid isPermaLink="false"><![CDATA[9784409241721]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784409241721]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784877913342]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784877913342]]></link>
       <guid isPermaLink="false"><![CDATA[9784877913342]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:24 GMT</pubDate>
       <description><![CDATA[ISBN: 9784877913342]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784800593399]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784800593399]]></link>
       <guid isPermaLink="false"><![CDATA[9784800593399]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784800593399]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784492534564]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784492534564]]></link>
       <guid isPermaLink="false"><![CDATA[9784492534564]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784492534564]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784502408212]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784502408212]]></link>
       <guid isPermaLink="false"><![CDATA[9784502408212]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784502408212]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784474077553]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784474077553]]></link>
       <guid isPermaLink="false"><![CDATA[9784474077553]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784474077553]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784295411185]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784295411185]]></link>
       <guid isPermaLink="false"><![CDATA[9784295411185]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784295411185]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784535541214]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784535541214]]></link>
       <guid isPermaLink="false"><![CDATA[9784535541214]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784535541214]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784295409311]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784295409311]]></link>
       <guid isPermaLink="false"><![CDATA[9784295409311]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784295409311]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784496057809]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784496057809]]></link>
       <guid isPermaLink="false"><![CDATA[9784496057809]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784496057809]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784384049701]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784384049701]]></link>
       <guid isPermaLink="false"><![CDATA[9784384049701]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784384049701]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784569859736]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784569859736]]></link>
       <guid isPermaLink="false"><![CDATA[9784569859736]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784569859736]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784295410485]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784295410485]]></link>
       <guid isPermaLink="false"><![CDATA[9784295410485]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784295410485]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784534062079]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784534062079]]></link>
       <guid isPermaLink="false"><![CDATA[9784534062079]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784534062079]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784641233522]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784641233522]]></link>
       <guid isPermaLink="false"><![CDATA[9784641233522]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784641233522]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784641233546]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784641233546]]></link>
       <guid isPermaLink="false"><![CDATA[9784641233546]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784641233546]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784296120444]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784296120444]]></link>
       <guid isPermaLink="false"><![CDATA[9784296120444]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784296120444]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784641243910]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784641243910]]></link>
       <guid isPermaLink="false"><![CDATA[9784641243910]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784641243910]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784496057816]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784496057816]]></link>
       <guid isPermaLink="false"><![CDATA[9784496057816]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784496057816]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784492503607]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784492503607]]></link>
       <guid isPermaLink="false"><![CDATA[9784492503607]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784492503607]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784800721457]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784800721457]]></link>
       <guid isPermaLink="false"><![CDATA[9784800721457]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784800721457]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784496057793]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784496057793]]></link>
       <guid isPermaLink="false"><![CDATA[9784496057793]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:28 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784496057793]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784130421546]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784130421546]]></link>
       <guid isPermaLink="false"><![CDATA[9784130421546]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784130421546]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784296121298]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784296121298]]></link>
       <guid isPermaLink="false"><![CDATA[9784296121298]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784296121298]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784594101220]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784594101220]]></link>
       <guid isPermaLink="false"><![CDATA[9784594101220]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784594101220]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784866367552]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784866367552]]></link>
       <guid isPermaLink="false"><![CDATA[9784866367552]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784866367552]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784866808567]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784866808567]]></link>
       <guid isPermaLink="false"><![CDATA[9784866808567]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784866808567]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784296125456]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784296125456]]></link>
       <guid isPermaLink="false"><![CDATA[9784296125456]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784296125456]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784054070370]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784054070370]]></link>
       <guid isPermaLink="false"><![CDATA[9784054070370]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784054070370]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784798193762]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784798193762]]></link>
       <guid isPermaLink="false"><![CDATA[9784798193762]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784798193762]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784296118335]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784296118335]]></link>
       <guid isPermaLink="false"><![CDATA[9784296118335]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784296118335]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784478108765]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784478108765]]></link>
       <guid isPermaLink="false"><![CDATA[9784478108765]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784478108765]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784262174938]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784262174938]]></link>
       <guid isPermaLink="false"><![CDATA[9784262174938]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784262174938]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784756924230]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784756924230]]></link>
       <guid isPermaLink="false"><![CDATA[9784756924230]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784756924230]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784296119509]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784296119509]]></link>
       <guid isPermaLink="false"><![CDATA[9784296119509]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784296119509]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784800721488]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784800721488]]></link>
       <guid isPermaLink="false"><![CDATA[9784800721488]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784800721488]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784046069184]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784046069184]]></link>
       <guid isPermaLink="false"><![CDATA[9784046069184]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784046069184]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784326505142]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784326505142]]></link>
       <guid isPermaLink="false"><![CDATA[9784326505142]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784326505142]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784326505159]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784326505159]]></link>
       <guid isPermaLink="false"><![CDATA[9784326505159]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784326505159]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784322145533]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784322145533]]></link>
       <guid isPermaLink="false"><![CDATA[9784322145533]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784322145533]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784295411314]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784295411314]]></link>
       <guid isPermaLink="false"><![CDATA[9784295411314]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784295411314]]></description>
       
     </item>
     <item>
-      <title><![CDATA[本]]></title>
-      <link><![CDATA[https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank]]></link>
+      <title><![CDATA[9784198660482]]></title>
+      <link><![CDATA[https://www.junkudo.co.jp/search/?isbn=9784198660482]]></link>
       <guid isPermaLink="false"><![CDATA[9784198660482]]></guid>
-      <pubDate>Sat, 09 Aug 2025 23:41:27 GMT</pubDate>
+      <pubDate>Sat, 09 Aug 2025 23:49:23 GMT</pubDate>
       <description><![CDATA[ISBN: 9784198660482]]></description>
       
     </item>
