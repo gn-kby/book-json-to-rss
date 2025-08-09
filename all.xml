@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title><![CDATA[ジュンク堂: まとめ（全カテゴリ）]]></title>
+  <link>https://example.invalid</link>
+  <description><![CDATA[zetacx APIの検索結果をRSS化]]></description>
+  <language>ja</language>
+  <lastBuildDate>Sat, 09 Aug 2025 23:28:43 GMT</lastBuildDate>
+  <ttl>240</ttl>
+  
+</channel>
+</rss>
