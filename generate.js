@@ -1,180 +1,224 @@
 import fs from "node:fs/promises";
+import crypto from "node:crypto";
 
-// ===== 取得元一覧（slug, タイトル, 取得URL）=====
-const SOURCES = [
-  { slug: "shinsho-sensho", title: "ジュンク堂: 新書・選書",
-    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%B0%E6%9B%B8%E3%83%BB%E9%81%B8%E6%9B%B8&publication_date=2026/08/ALL/before&sort=-daterank" },
-  { slug: "business", title: "ジュンク堂: ビジネス",
-    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank" },
-  { slug: "current-affairs", title: "ジュンク堂: 社会時事",
-    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%A4%BE%E4%BC%9A%E6%99%82%E4%BA%8B&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank" },
-  { slug: "economy", title: "ジュンク堂: 経済",
-    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank" },
-  { slug: "management", title: "ジュンク堂: 経営",
-    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank" },
-  { slug: "politics", title: "ジュンク堂: 政治",
-    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank" },
-  { slug: "computer", title: "ジュンク堂: コンピュータ",
-    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank" },
-  { slug: "bunko", title: "ジュンク堂: 文庫",
-    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA%2AmT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank" },
+const BASE_URL = "https://gn-kby.github.io/book-json-to-rss/";
+
+const sources = [
+  {
+    slug: "shinsho-sensho",
+    title: "ジュンク堂: 新書・選書",
+    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%B0%E6%9B%B8%E3%83%BB%E9%81%B8%E6%9B%B8&publication_date=2026/08/ALL/before&sort=-daterank"
+  },
+  {
+    slug: "business",
+    title: "ジュンク堂: ビジネス",
+    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank"
+  },
+  {
+    slug: "shakai-jiji",
+    title: "ジュンク堂: 社会時事",
+    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%A4%BE%E4%BC%9A%E6%99%82%E4%BA%8B&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank"
+  },
+  {
+    slug: "keizai",
+    title: "ジュンク堂: 経済",
+    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E6%B8%88&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank"
+  },
+  {
+    slug: "keiei",
+    title: "ジュンク堂: 経営",
+    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E7%B5%8C%E5%96%B6&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank"
+  },
+  {
+    slug: "seiji",
+    title: "ジュンク堂: 政治",
+    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%94%BF%E6%B2%BB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank"
+  },
+  {
+    slug: "computer",
+    title: "ジュンク堂: コンピュータ",
+    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank"
+  },
+  {
+    slug: "bunko",
+    title: "ジュンク堂: 文庫",
+    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%87%E5%BA%AB&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank"
+  }
 ];
 
-// ===== ユーティリティ =====
-const cdata = (s = "") => `<![CDATA[${String(s).replaceAll("]]>", "]]]]><![CDATA[>")}]]>`;
-const escAttr = (s = "") =>
-  String(s).replaceAll("&","&amp;")
-           .replaceAll('"',"&quot;")
-           .replaceAll("<","&lt;")
-           .replaceAll(">","&gt;");
+async function ensureDir(p) {
+  await fs.mkdir(p, { recursive: true });
+}
 
-const pick = (obj, keys, def = "") =>
-  keys.map(k => obj?.[k]).find(v => typeof v === "string" && v.trim()) ?? def;
-
-const toRfc822 = (v) => {
-  const d = new Date(v);
-  return isNaN(d) ? new Date().toUTCString() : d.toUTCString();
-};
-
-// 説明文（著者・出版社・ISBN・価格・概要など）
-const buildDesc = (it) => {
-  const author = pick(it, ["author","authors","writer","creator","author_name"]);
-  const publisher = pick(it, ["publisher","label","publisher_name"]);
-  const isbn = pick(it, ["isbn13","isbn","JAN"]);
-  const price = pick(it, ["price","price_text","tax_in","price_with_tax"]);
-  const overview = pick(it, ["description","overview","summary","body","item_caption"]);
-  const parts = [];
-  if (author) parts.push(`著者: ${author}`);
-  if (publisher) parts.push(`出版社: ${publisher}`);
-  if (isbn) parts.push(`ISBN: ${isbn}`);
-  if (price) parts.push(`価格: ${price}`);
-  if (overview) parts.push(overview);
-  return parts.join("\n");
-};
-
-// JSONから配列を抽出（多層 & 自動探索）
-const extractArray = (data) => {
-  if (!data) return [];
-  if (Array.isArray(data)) return data;
-  if (Array.isArray(data?.items)) return data.items;
-  if (Array.isArray(data?.results)) return data.results;
-  if (Array.isArray(data?.data)) return data.data;
-  if (Array.isArray(data?.data?.items)) return data.data.items;
-  for (const v of Object.values(data)) {
-    if (Array.isArray(v)) return v;
-    if (v && typeof v === "object") {
-      const inner = extractArray(v);
-      if (inner.length) return inner;
+async function fetchJson(url) {
+  const res = await fetch(url, {
+    headers: {
+      "accept": "application/json"
     }
-  }
-  return [];
-};
-
-const normalizeItems = (data, sourceUrl) => {
-  const items = extractArray(data);
-  return items.map(it => {
-    // ---- タイトル（候補拡張 & 「本」なら代替）----
-    let title = pick(it, [
-      "title", "book_title", "title_name", "name",
-      "item_name", "product_name", "display_name",
-      "item_caption", "series_name"
-    ], "");
-    if (!title || title.trim() === "本") {
-      const author = pick(it, ["author","authors","writer","creator","author_name"]);
-      const isbn = pick(it, ["isbn13","isbn","JAN"]);
-      title = [author, isbn].filter(Boolean).join(" / ") || "No title";
-    }
-
-    // ---- リンク（詳細URL優先 → ISBN検索 → sourceUrl）----
-    let link = pick(it, ["item_url","detail_url","product_url","url","link"], "");
-    if (!link) {
-      const isbn = pick(it, ["isbn13","isbn","JAN"]);
-      if (isbn) link = `https://www.junkudo.co.jp/search/?isbn=${encodeURIComponent(isbn)}`;
-    }
-    if (!link) link = sourceUrl;
-
-    const guid = pick(it, ["url","item_url","isbn13","isbn","id","item_id"], link);
-    const date = pick(it, ["publication_date","published_at","updated_at","date","release_date"], new Date().toISOString());
-    const desc = buildDesc(it);
-    const img  = pick(it, ["image_url","thumbnail","cover","image","imageLink"]);
-
-    return { title, link, guid, date, desc, img };
   });
-};
+  if (!res.ok) {
+    throw new Error(`fetch failed ${res.status} ${res.statusText}`);
+  }
+  return res.json();
+}
 
-const rssXml = (channelTitle, channelLink, items) => {
-  const now = new Date().toUTCString();
-  const rssItems = items.map(it => `
-    <item>
-      <title>${cdata(it.title)}</title>
-      <link>${cdata(it.link)}</link>
-      <guid isPermaLink="${/^https?:\/\//.test(it.guid) ? "true" : "false"}">${cdata(it.guid)}</guid>
-      <pubDate>${toRfc822(it.date)}</pubDate>
-      <description>${cdata(it.desc)}</description>
-      ${it.img ? `<enclosure url="${escAttr(it.img)}" length="0" type="image/jpeg" />` : ""}
-    </item>`).join("");
+function itemsFromZetacx(json) {
+  if (!json || !Array.isArray(json.product_list)) return [];
+  return json.product_list.map((it) => {
+    const title = it.product_name || it.item_name || "タイトル不明";
+    const author = it.author?.author_name || "";
+    const publisher = it.publisher?.publisher_name || "";
+    const isbn = it.isbn || it.product_id || "";
+    const image = it.image?.image_path || "";
+    let pubDate = new Date();
+    const m = it.release?.release_date?.match(/(\d{4})\/(\d{2})\/(\d{2})/);
+    if (m) {
+      const y = Number(m[1]);
+      const mo = Number(m[2]) - 1;
+      const d = Number(m[3]);
+      pubDate = new Date(Date.UTC(y, mo, d, 0, 0, 0));
+    }
+    const genres = Array.isArray(it.genre_list)
+      ? it.genre_list.map((g) => g.genre_name).filter(Boolean)
+      : [];
 
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-  <title>${cdata(channelTitle)}</title>
-  <link>${cdata(channelLink)}</link>
-  <description>${cdata("zetacx APIの検索結果をRSS化")}</description>
-  <language>ja</language>
-  <lastBuildDate>${now}</lastBuildDate>
-  <ttl>240</ttl>
-  ${rssItems}
-</channel>
-</rss>`;
-};
+    return {
+      title: author ? `${title}（${author}）` : title,
+      link: isbn
+        ? `https://www.junkudo.co.jp/search/?isbn=${encodeURIComponent(isbn)}`
+        : "https://www.junkudo.co.jp/",
+      guid: isbn || it.product_id || crypto.randomUUID(),
+      pubDate,
+      categories: genres,
+      description: [
+        publisher && `出版社: ${publisher}`,
+        author && `著者: ${author}`,
+        isbn && `ISBN: ${isbn}`,
+        it.price?.tax_included_price && `価格(税込): ${it.price.tax_included_price}円`,
+        image && `<img src="${image}" alt="${escapeHtml(title)}" referrerpolicy="no-referrer" />`
+      ]
+        .filter(Boolean)
+        .join(" / ")
+    };
+  });
+}
 
-// fetch堅牢化（UA/Referer/Accept、リトライ）
-const fetchJson = async (url, tries = 3) => {
-  const headers = {
-    "accept": "application/json, text/plain, */*",
-    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "referer": "https://www.junkudo.co.jp/"
-  };
-  let lastErr;
-  for (let i = 0; i < tries; i++) {
-    try {
-      const r = await fetch(url, { headers });
-      if (!r.ok) {
-        const txt = await r.text().catch(() => "");
-        throw new Error(`HTTP ${r.status} ${r.statusText} ${txt.slice(0,200)}`);
-      }
-      return await r.json();
-    } catch (e) {
-      lastErr = e;
-      await new Promise(res => setTimeout(res, 1000 * (i + 1)));
+function escapeHtml(s) {
+  return String(s)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+}
+
+function cdata(s) {
+  // CDATAの中に "]]>" が入ると壊れるため分割
+  return `<![CDATA[${String(s).replaceAll("]]>", "]]]]><![CDATA[>")}]]>`;
+}
+
+function rfc822(d) {
+  return d instanceof Date ? d.toUTCString() : new Date(d).toUTCString();
+}
+
+function rssXml({ title, link, description, items, language = "ja" }) {
+  const lastBuildDate = rfc822(new Date());
+  const itemXml = items
+    .map((it) => {
+      const cats = (it.categories || [])
+        .map((c) => `<category>${cdata(c)}</category>`)
+        .join("");
+      return [
+        "<item>",
+        `<title>${cdata(it.title)}</title>`,
+        `<link>${cdata(it.link)}</link>`,
+        `<guid isPermaLink="false">${cdata(it.guid)}</guid>`,
+        `<pubDate>${rfc822(it.pubDate)}</pubDate>`,
+        cats,
+        `<description>${cdata(it.description)}</description>`,
+        "</item>"
+      ].join("");
+    })
+    .join("\n");
+
+  return [
+    `<?xml version="1.0" encoding="UTF-8"?>`,
+    `<rss version="2.0">`,
+    `<channel>`,
+    `<title>${cdata(title)}</title>`,
+    `<link>${cdata(link)}</link>`,
+    `<description>${cdata(description)}</description>`,
+    `<language>${language}</language>`,
+    `<lastBuildDate>${lastBuildDate}</lastBuildDate>`,
+    `<ttl>240</ttl>`,
+    itemXml,
+    `</channel>`,
+    `</rss>`
+  ].join("\n");
+}
+
+async function writeRss(path, opts) {
+  const xml = rssXml(opts);
+  await fs.writeFile(path, xml, "utf8");
+}
+
+async function main() {
+  await ensureDir("docs");
+
+  const allItems = [];
+
+  for (const src of sources) {
+    const data = await fetchJson(src.url);
+    const items = itemsFromZetacx(data);
+
+    // 個別フィード
+    const xmlPath = `docs/${src.slug}.xml`;
+    await writeRss(xmlPath, {
+      title: src.title,
+      link: BASE_URL,
+      description: "zetacx APIの検索結果をRSS化",
+      items
+    });
+
+    // all 用に蓄積
+    for (const it of items) {
+      allItems.push({ ...it, _source: src.title });
     }
   }
-  throw lastErr;
-};
 
-(async () => {
-  await fs.mkdir("docs", { recursive: true });
-  await fs.writeFile("docs/.nojekyll", "");
-
-  const all = [];
-  for (const src of SOURCES) {
-    try {
-      const data = await fetchJson(src.url);
-      const items = normalizeItems(data, src.url);
-      const xml = rssXml(src.title, src.url, items);
-      await fs.writeFile(`docs/${src.slug}.xml`, xml, "utf8");
-      all.push(...items.map(i => ({ ...i, _source: src.title })));
-      console.log(`generated: docs/${src.slug}.xml (${items.length} items)`);
-    } catch (e) {
-      console.error(`fetch failed: ${src.slug}:`, e?.message || e);
-      const xml = rssXml(`${src.title}（取得失敗）`, src.url, []);
-      await fs.writeFile(`docs/${src.slug}.xml`, xml, "utf8");
-    }
+  // 重複ISBN(guid)を除去し、pubDate降順で最大200件
+  const deDup = new Map();
+  for (const it of allItems) {
+    if (!deDup.has(it.guid)) deDup.set(it.guid, it);
   }
+  const merged = Array.from(deDup.values()).sort(
+    (a, b) => b.pubDate - a.pubDate
+  ).slice(0, 200);
 
-  // まとめRSS（最大100件、pubDate降順）
-  const sorted = all.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 100);
-  const allXml = rssXml("ジュンク堂: まとめ（全カテゴリ）", "https://gn-kby.github.io/book-json-to-rss/", sorted);
-  await fs.writeFile("docs/all.xml", allXml, "utf8");
-  console.log(`generated: docs/all.xml (${sorted.length} items)`);
-})();
+  await writeRss("docs/all.xml", {
+    title: "ジュンク堂: まとめ（全カテゴリ）",
+    link: BASE_URL,
+    description: "zetacx APIの検索結果をRSS化",
+    items: merged
+  });
+
+  // index（簡易）
+  const indexHtml = `<!doctype html>
+<html lang="ja"><meta charset="utf-8">
+<title>book-json-to-rss</title>
+<body>
+<h1>book-json-to-rss</h1>
+<ul>
+  ${sources
+    .map(
+      (s) => `<li><a href="./${s.slug}.xml">${escapeHtml(s.title)}</a></li>`
+    )
+    .join("")}
+  <li><a href="./all.xml">まとめ（all）</a></li>
+</ul>
+</body></html>`;
+  await fs.writeFile("docs/index.html", indexHtml, "utf8");
+}
+
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
