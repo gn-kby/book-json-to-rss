@@ -1,31 +1,46 @@
-name: Build RSS 5x/day
+name: Build & Publish RSS (GitHub Pages)
 
 on:
   schedule:
-    # UTC 20:00 / 00:00 / 03:00 / 06:00 / 09:00 （JST 05:00 / 09:00 / 12:00 / 15:00 / 18:00）
-    - cron: "0 20,0,3,6,9 * * *"
+    # JST 05:00 / 09:00 / 12:00 / 15:00 / 18:00 = UTC 20:00 / 00:00 / 03:00 / 06:00 / 09:00
+    - cron: "0 20 * * *"
+    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch:
+  push:
+    branches: ["main"]
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-
-      - run: npm ci --ignore-scripts --no-audit --no-fund || true
-      - run: node -v
+          node-version: "20"
+      - run: npm ci || npm install
       - run: npm run build
-
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          publish_branch: gh-pages
+          path: ./docs
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
