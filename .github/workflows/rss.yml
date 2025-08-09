@@ -1,0 +1,31 @@
+name: Build RSS 3x/day
+
+on:
+  schedule:
+    # UTC 18:05 / 02:05 / 10:05 に実行（JST 03:05 / 11:05 / 19:05）
+    - cron: "5 18,2,10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci --ignore-scripts --no-audit --no-fund || true
+      - run: node -v
+      - run: npm run build
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
