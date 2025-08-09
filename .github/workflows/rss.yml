@@ -2,8 +2,8 @@ name: Build RSS 3x/day
 
 on:
   schedule:
-    # UTC 18:05 / 02:05 / 10:05 に実行（JST 03:05 / 11:05 / 19:05）
-    - cron: "5 18,2,10 * * *"
+    # UTC 20:00 / 00:00 / 03:00 / 06:00 / 09:00
+    - cron: "0 20,0,3,6,9 * * *"
   workflow_dispatch:
 
 permissions:
