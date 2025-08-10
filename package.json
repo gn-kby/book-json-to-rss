@@ -4,5 +4,7 @@
   "scripts": {
     "build": "node generate.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
 }
