@@ -1,9 +1,9 @@
+// package.json（修正後の例）
 {
-  "name": "junkudo-json-to-rss",
-  "private": true,
-  "type": "module",
-  "engines": { "node": ">=20" },
+  "name": "book-json-to-rss",
+  "version": "1.0.0",
   "scripts": {
     "build": "node generate.js"
-  }
+  },
+  "dependencies": {}
 }
