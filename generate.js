@@ -12,6 +12,8 @@ const CATEGORIES = [
   { name: "seiji",          title: "ジュンク堂: 政治",       genre: "政治" },
   { name: "keiei",          title: "ジュンク堂: 経営",       genre: "経営" },
   { name: "keizai",         title: "ジュンク堂: 経済",       genre: "経済" },
+  { name: "business",       title: "ジュンク堂: ビジネス",   genre: "ビジネス" },
+  { name: "shakai-jiji",    title: "ジュンク堂: 社会・時事", genre: "社会時事" },
 ];
 
 const COMMON_QS = {
