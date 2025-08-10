@@ -38,7 +38,7 @@ const buildItem = (p) => {
   const publisher = p.publisher?.publisher_name ?? "";
   const priceTaxIn = p.price?.tax_included_price != null ? `${p.price.tax_included_price}円` : "";
   const rel = (p.release?.release_date || "").replace(/^発売日：/, "");
-  const link = `https://www.junkudo.co.jp/search/?isbn=${encodeURIComponent(isbn)}`;
+  const link = `https://www.maruzenjunkudo.co.jp/products/${isbn}`;
 
   const desc = [
     author && `著者: ${author}`,
