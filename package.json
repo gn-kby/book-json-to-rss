@@ -1,4 +1,3 @@
-// package.json（修正後の例）
 {
   "name": "book-json-to-rss",
   "version": "1.0.0",
