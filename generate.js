@@ -1,70 +1,117 @@
-const fs = require("fs");
-const fetch = require("node-fetch");
+// generate.mjs
+import { writeFile } from "node:fs/promises";
 
-const feeds = [
-  {
-    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E6%96%B0%E6%9B%B8%E3%83%BB%E9%81%B8%E6%9B%B8&publication_date=2026/08/ALL/before&sort=-daterank",
-    file: "shinsho-sensho.xml",
-    title: "ジュンク堂: 新書・選書"
-  },
-  {
-    url: "https://junkudo.search.zetacx.net/api/search/item?access_key=ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C&count=20&page=1&adult_flg=2&publication_date=2026/08/ALL/before&genre_name=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9&publication_date=2027%2FALL%2FALL%2Fbefore&sort=-daterank",
-    file: "business.xml",
-    title: "ジュンク堂: ビジネス"
-  },
-  // 他のURLもここに追加
+const ACCESS_KEY = "ty7VA*mT4ovvZhTsQPtMxo2G2QoKLx-C";
+const BASE = "https://junkudo.search.zetacx.net/api/search/item";
+
+// ここに欲しいカテゴリを全部列挙
+const CATEGORIES = [
+  { name: "shinsho-sensho", title: "ジュンク堂: 新書・選書", genre: "新書・選書" },
+  { name: "bunko",          title: "ジュンク堂: 文庫",       genre: "文庫" },
+  { name: "computer",       title: "ジュンク堂: コンピュータ", genre: "コンピュータ" },
+  { name: "seiji",          title: "ジュンク堂: 政治",       genre: "政治" },
+  { name: "keiei",          title: "ジュンク堂: 経営",       genre: "経営" },
+  { name: "keizai",         title: "ジュンク堂: 経済",       genre: "経済" },
 ];
 
-async function fetchAndGenerate() {
-  for (const feed of feeds) {
-    console.log(`Fetching ${feed.title} ...`);
-    const res = await fetch(feed.url);
-    const json = await res.json();
+const COMMON_QS = {
+  access_key: ACCESS_KEY,
+  adult_flg: 2,
+  sort: "-daterank",
+  page: 1,
+  count: 30,
+  // 「未来日より前」を拾うための上限。必要なら変えてOK（YYYY/MM/ALL/before）
+  publication_date: "2026/08/ALL/before",
+};
 
-    const items = (json?.items || [])
-      .map(item => {
-        const title = escapeXml(item.title);
-        const link = escapeXml(item.url);
-        const pubDate = new Date(item.pubdate).toUTCString();
-        const description = `
-出版社: ${item.publisher} / 著者: ${item.author} / ISBN: ${item.isbn} / 価格(税込): ${item.price}
-<img src="${item.image}" alt="${escapeXml(item.title)}" referrerpolicy="no-referrer" />
-`;
+const toQS = (obj) =>
+  Object.entries(obj)
+    .map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(String(v))}`)
+    .join("&");
 
-        return `
+const buildItem = (p) => {
+  const isbn = p.isbn ?? "";
+  const title = p.product_name ?? "本";
+  const author = p.author?.author_name ?? "";
+  const publisher = p.publisher?.publisher_name ?? "";
+  const priceTaxIn = p.price?.tax_included_price != null ? `${p.price.tax_included_price}円` : "";
+  const rel = (p.release?.release_date || "").replace(/^発売日：/, "");
+  const link = `https://www.junkudo.co.jp/search/?isbn=${encodeURIComponent(isbn)}`;
+
+  const desc = [
+    author && `著者: ${author}`,
+    publisher && `出版社: ${publisher}`,
+    isbn && `ISBN: ${isbn}`,
+    rel && `発売日: ${rel}`,
+    priceTaxIn && `価格(税込): ${priceTaxIn}`,
+  ]
+    .filter(Boolean)
+    .join(" / ");
+
+  // pubDate はパースに失敗しづらいよう現在時刻に統一（必要なら rel を Date にしてもOK）
+  const pubDate = new Date().toUTCString();
+
+  return `
 <item>
-  <title><![CDATA[${title}]]></title>
-  <link><![CDATA[${link}]]></link>
-  <pubDate>${pubDate}</pubDate>
-  <description><![CDATA[${description}]]></description>
-</item>`;
-      })
-      .join("\n");
+<title><![CDATA[ ${title} ]]></title>
+<link><![CDATA[ ${link} ]]></link>
+<guid isPermaLink="false"><![CDATA[ ${isbn || p.product_id} ]]></guid>
+<pubDate>${pubDate}</pubDate>
+<description><![CDATA[ ${desc} ]]></description>
+</item>`.trim();
+};
 
-    const rss = `<?xml version="1.0" encoding="UTF-8" ?>
+const buildRSS = (channelTitle, channelLink, itemsXML) => `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-<title><![CDATA[${feed.title}]]></title>
-<link><![CDATA[${feed.url}]]></link>
-<description><![CDATA[zetacx APIの検索結果をRSS化]]></description>
+<title><![CDATA[ ${channelTitle} ]]></title>
+<link><![CDATA[ ${channelLink} ]]></link>
+<description><![CDATA[ zetacx APIの検索結果をRSS化 ]]></description>
 <language>ja</language>
 <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
 <ttl>240</ttl>
-${items}
+${itemsXML.join("\n")}
 </channel>
-</rss>`;
+</rss>
+`;
 
-    fs.writeFileSync(feed.file, rss, "utf8");
+async function fetchCategory(genreName) {
+  const url = `${BASE}?${toQS({
+    ...COMMON_QS,
+    genre_name: genreName,
+  })}`;
+  const res = await fetch(url, { headers: { "accept": "application/json" } });
+  if (!res.ok) throw new Error(`fetch failed: ${res.status} ${res.statusText}`);
+  const json = await res.json();
+  return {
+    url,
+    products: Array.isArray(json.product_list) ? json.product_list : [],
+  };
+}
+
+async function main() {
+  const allItems = [];
+
+  for (const cat of CATEGORIES) {
+    const { url, products } = await fetchCategory(cat.genre);
+    const itemsXML = products.map(buildItem);
+    const rss = buildRSS(cat.title, url, itemsXML);
+    await writeFile(`${cat.name}.xml`, rss, "utf8");
+    allItems.push(...itemsXML);
+    console.log(`wrote: ${cat.name}.xml (${products.length} items)`);
   }
+
+  // まとめ（全カテゴリ）: 最新順の見栄えを保つため直近 200 件までに制限
+  const allRss = buildRSS(
+    "ジュンク堂: まとめ（全カテゴリ）",
+    "https://gn-kby.github.io/book-json-to-rss/",
+    allItems.slice(0, 200)
+  );
+  await writeFile(`all.xml`, allRss, "utf8");
+  console.log(`wrote: all.xml (${Math.min(allItems.length, 200)} items)`);
 }
 
-function escapeXml(unsafe) {
-  return unsafe ? unsafe.replace(/[<>&'"]/g, c => {
-    return {'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c];
-  }) : "";
-}
-
-fetchAndGenerate().catch(e => {
+main().catch((e) => {
   console.error(e);
   process.exit(1);
 });
