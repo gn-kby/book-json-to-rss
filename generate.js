@@ -8,6 +8,7 @@ const BASE = "https://junkudo.search.zetacx.net/api/search/item";
 const CATEGORIES = [
   { name: "shinsho-sensho", title: "ジュンク堂: 新書・選書", genre: "新書・選書" },
   { name: "bunko",          title: "ジュンク堂: 文庫",       genre: "文庫" },
+  { name: "bungei",         title: "ジュンク堂: 文芸",       genre: "文芸" },
   { name: "computer",       title: "ジュンク堂: コンピュータ", genre: "コンピュータ" },
   { name: "seiji",          title: "ジュンク堂: 政治",       genre: "政治" },
   { name: "keiei",          title: "ジュンク堂: 経営",       genre: "経営" },
